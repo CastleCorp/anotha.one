@@ -30,7 +30,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  position: absolute;
+  position: relative;
   display: block;
   letter-spacing: .75rem; }
 
@@ -56,6 +56,11 @@ body {
   border-radius: 2rem;
   border: none; }*/
 
+  .wrapper {
+    text-align: center;
+    margin: auto;
+  }
+
   #anotha-one {
   position: absolute;
   left: 37%;
@@ -63,7 +68,8 @@ body {
   cursor: pointer;
   bottom: 10%;
   letter-spacing: .55rem;
-  min-width: 18.75rem;
+  /*min-width: 18.75rem;*/
+  max-width: 50%;
   background: #3498db;
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
   text-shadow: 1px 1px 3px #666666;
@@ -74,6 +80,9 @@ body {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border-color: #3498db;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #anotha-one:hover {
