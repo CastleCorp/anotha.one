@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Norwester';
+  src: url("fonts/norwester.eot");
+  src: url("fonts/norwester.eot?#iefix") format("embedded-opentype"), url("fonts/norwester.woff") format("woff"), url("fonts/norwester.ttf") format("truetype"), url("fonts/norwester.svg#norwesterregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  /*background: url(../img/shia.jpg) no-repeat center center fixed;*/
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
+
+body {
+  background-size: 100%;
+}
+
+.blessed {
+  color: white;
+  font-family: 'Norwester', 'PT Sans', sans-serif, serif;
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 4px #000, -2px -2px #000, 2px 2px #000;
+  line-height: 1.4;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  letter-spacing: .75rem; }
+
+/*#anotha-one {
+  position: absolute;
+  left: 50%;
+  background-image: linear-gradient(-180deg, rgba(130,0,157,.7) 0%, rgba(227,0,255,.7) 100%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Norwester', 'PT Sans', sans-serif, serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #333;
+  bottom: 10%;
+  letter-spacing: .55rem;
+  display: block;
+  padding: 20px 20px 20px 20px;
+  min-width: 18.75rem;
+  border-radius: 2rem;
+  border: none; }*/
+
+  #anotha-one {
+  position: absolute;
+  left: 37%;
+  text-align: center;
+  cursor: pointer;
+  bottom: 10%;
+  letter-spacing: .55rem;
+  min-width: 18.75rem;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-shadow: 1px 1px 3px #666666;
+  /**box-shadow: 0px 1px 3px #666666;**/
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-color: #3498db;
+}
+
+#anotha-one:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  border-color: #3498db;
+}
+
+/*#anotha-one:hover {
+  background-image: linear-gradient(-180deg, rgba(130,0,157,1) 10%, rgba(227,0,255,1) 100%);
+  color: white;
+ }
+
+#anotha-one:focus {
+  border: none;
+  outline: none; }
+
+#anotha-one:active {
+  padding: 10px 10px 10px 10px;
+  min-width: 15rem; }*/
+
+@media (max-width: 568px) {
+  .blessed {
+    font-size: 3rem; }
+  #anotha-one {
+    min-width: 10rem; } }
+
+@media (max-width: 300px) {
+  .blessed {
+    font-size: 2rem; }
+  #anotha-one {
+    min-width: 6rem; } }
+
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+    }

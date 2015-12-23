@@ -1,0 +1,25 @@
+{
+  "name": "anotha.one",
+  "version": "1.0.0",
+  "description": "They don't want you to have a jet-ski. Bless up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castlecorp/anotha.one.git"
+  },
+  "author": "CastleCorp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castlecorp/anotha.one/issues"
+  },
+  "homepage": "https://anotha.one",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-sass": "^2.1.1"
+  }
+}

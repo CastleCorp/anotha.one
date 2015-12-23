@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Norwester';
+    src: url('fonts/norwester.eot');
+    src: url('fonts/norwester.eot?#iefix') format('embedded-opentype'), url('fonts/norwester.woff') format('woff'), url('fonts/norwester.ttf') format('truetype'), url('fonts/norwester.svg#norwesterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: url(../img/shia.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.motivation {
+    color: white;
+    font-family: 'Norwester', 'PT Sans', sans-serif, serif;
+    font-weight: 800;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    letter-spacing: .75rem;
+}
+
+#do-it {
+    position: absolute;
+    left: 50%;
+    background-image: linear-gradient(-180deg, rgba(0, 255, 50, 0.7) 0%, rgba(0, 255, 246, 0.7) 100%);
+    transform: translateX(-50%);
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Norwester', 'PT Sans', sans-serif, serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #333;
+    bottom: 10%;
+    letter-spacing: .55rem;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    min-width: 18.75rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+#do-it:hover {
+    background-image: linear-gradient(-180deg, #00FFF6 10%, #00FF32 100%);
+}
+
+#do-it:focus {
+    border: none;
+    outline: none;
+}
+
+#do-it:active {
+	padding: 10px 10px 10px 10px;
+    min-width: 15rem;
+}
+
+
+@media (max-width: 568px) {
+    .motivation {
+        font-size: 3rem;
+    }
+    #do-it {
+        min-width: 10rem;
+    }
+}
+@media (max-width: 300px) {
+    .motivation {
+        font-size: 2rem;
+    }
+    #do-it {
+        min-width: 6rem;
+    }
+}

@@ -1,2 +1,2 @@
 # anotha.one
-Generate some that cloth talk, inspired by DJ Khaled
+Generate some of that cloth talk, inspired by DJ Khaled.
