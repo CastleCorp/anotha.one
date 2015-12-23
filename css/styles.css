@@ -63,12 +63,12 @@ body {
 
   #anotha-one {
   position: absolute;
-  left: 37%;
+  left: 50%;
   text-align: center;
   cursor: pointer;
   bottom: 10%;
   letter-spacing: .55rem;
-  /*min-width: 18.75rem;*/
+  min-width: 18.75rem;
   max-width: 50%;
   background: #3498db;
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
