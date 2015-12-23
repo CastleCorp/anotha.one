@@ -20,7 +20,7 @@ body {
   color: white;
   font-family: 'Norwester', 'PT Sans', sans-serif, serif;
   font-weight: 800;
-  font-size: 4rem;
+  font-size: 4rem auto; 
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0px 0px 4px #000, -2px -2px #000, 2px 2px #000;

@@ -37,6 +37,10 @@ class BlessUp
     {text: "You loyal"}
     {text: "You a genius"}
     {text: "I appreciate that"}
+    {text: "All I do is win"}
+    {text: "Win"}
+    {text: "Im gonna hold you down"}
+    
   ]
 
   currentIndex: 0
