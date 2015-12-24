@@ -82,6 +82,7 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+  cursor: url(../img/heart.png),auto;
 }
 
 #f-link {
@@ -96,6 +97,7 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+  cursor: url(../img/heart.png),auto;
 }
 
 #anotha-one:hover {
