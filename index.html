@@ -68,7 +68,7 @@
 
   <h1 class='blessed'></h1>
   <div style="width:50%;margin:0 auto;text-align:center;">
-    <button id="anotha-one" onclick="button()">ANOTHA ONE</button>
+    <button id="anotha-one" onclick="button(); set_bg()">ANOTHA ONE</button>
   </div>
 
   <audio id="audio" src="sounds/another.mp3"></audio>
@@ -85,9 +85,12 @@
     }
   </script>
   <script>
-    $(document).ready(function() {
+    function set_bg() {
       var i = Math.floor((Math.random() * 4) + 1);
       $('body').css('background', 'url(img/'+i+'.jpg) no-repeat center center fixed');
+    }
+    $(document).ready(function() {
+      set_bg();
     });
   </script>
   <script>
